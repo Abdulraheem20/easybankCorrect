@@ -49,8 +49,11 @@ body{
 }
 .page2{
     /* width: 1200px; */
-   padding: 150px;
+   padding: 100px;
 }
 .onlineBanking{
     margin-top: 50px;
+}
+.page3{
+    padding: 50px 100px;
 }
