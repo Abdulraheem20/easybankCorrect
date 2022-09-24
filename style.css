@@ -21,7 +21,8 @@ body{
     position: absolute top ;
 }
 .Request-invite{
-    background-color: hsl(136, 65%, 51%);
+   /* linear-gradient(to right, red , yellow) */
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
     width: 120px;
     height: 30px;
     border-radius: 20px;
@@ -56,4 +57,16 @@ body{
 }
 .page3{
     padding: 50px 100px;
+}
+.copyRight{
+    margin-left: 300px;
+}
+.RequestInvite{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+.links{
+    line-height: 2.5rem;
 }
