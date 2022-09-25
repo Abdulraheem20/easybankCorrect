@@ -3,11 +3,13 @@
     margin: 0px;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Cairo:wght@600&family=Dancing+Script:wght@700&family=Kumbh+Sans:wght@500;700&family=La+Belle+Aurore&family=Public+Sans:wght@300;400;700&family=Red+Hat+Text:wght@700&family=Roboto:wght@500&display=swap');
 body{
     background-image: url(./images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
     background-position:  right top;
-    background-size: 800px;
+    background-size: 700px;
+    font-family: 'Public Sans', sans-serif;
 }
 .header{
     background-color: hsl(0, 0%, 100%);
@@ -15,33 +17,31 @@ body{
 }
 .page1{
    height: 600px; 
-   /* background-color: white; */
 }
 .right-side{
     position: absolute top ;
 }
 .Request-invite{
-   /* linear-gradient(to right, red , yellow) */
     background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
     width: 120px;
     height: 30px;
     border-radius: 20px;
 }
 .mockups{
-    width: 700px;
+    width: 600px;
     height: 700px;
     position: absolute;
     top: 59px; right: 0px;
 }
 .next{
-    font-size: 100px;
+    font-size:large;
 }
 .left-side{
     margin: 100px 30px 0px 50px;
 }
 .next-line{
     display: block;
-    font-size: x-large;
+    font-size: large;
     line-height: 2.5rem;
 }
 .page2Container{
